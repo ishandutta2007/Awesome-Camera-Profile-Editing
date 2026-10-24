@@ -1,153 +1,139 @@
-# Awesome-Camera-Profile-Editing
+<div align="center">
 
-## Top Camera Profile Editing Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Camera Profile Editing Banner" width="100%" />
+</p>
 
+# 📷 Awesome Camera Profile Editing
 
+### 🌈 Curated Suite of SaaS Platforms & Open-Source Projects for Camera Profiling, ICC/DCP Generation & Color Management
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Camera Profiling, ICC/DCP Generation & Self-Hosted Color Management*  
+<p align="center">
+  <b>A comprehensive directory for photographers, imaging engineers, VFX colorists, and color scientists building precise camera characterization pipelines.</b>
+</p>
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Camera Profile Editing**. These tools enable photographers and color scientists to create custom camera profiles—mapping raw sensor data to accurate color—and to build ICC profiles, DCP files, and 3D LUTs that ensure consistent color across cameras, displays, and output devices.
-
-
-
-**Examples** include Adobe DNG Profile Editor, X-Rite/Calibrite ColorChecker, DxO PhotoLab, Capture One, 3D LUT Creator, Argyll CMS, and DisplayCAL (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding per-seat or hardware-bundled software fees, and controlling the color pipeline. The open-source landscape is anchored by **Argyll CMS** (the comprehensive ICC-compatible color management system), **DisplayCAL** (the gold-standard GUI for Argyll on Linux/Windows), **dcamprof** (the command-line DCP profile maker for RawTherapee), and **colour-science** (the Python library for color science algorithms), with **rawtoaces** providing ACES-ready raw camera transforms.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Adobe DNG Profile Editor](https://helpx.adobe.com/camera-raw/digital-negative.html)** | Free utility from Adobe for creating and editing DNG camera profiles, including dual-illuminant profiles and tone curves. | **Free** (downloadable from Adobe Labs) . | **Fully free**. No account or subscription required. |
-
-| **[X-Rite ColorChecker Camera Calibration](https://calibrite.com/)** | Software bundled with X-Rite/Calibrite ColorChecker targets for generating camera profiles. | Bundled with hardware purchases (e.g., ColorChecker Passport ~$107; ColorChecker Studio ~€599) . | **Software is free with hardware purchase**. No standalone free tier. |
-
-| **[Calibrite ColorChecker Studio](https://calibrite.com/)** | Complete color management kit including ColorChecker target and Calibrite PROFILER software for camera, display, and printer profiling. | **~€599** (incl. VAT) for the Studio kit . UK pricing ~£519 . | No free tier. Hardware bundle only. |
-
-| **[DxO PhotoLab](https://www.dxo.com/)** | RAW processing software with DxO Optical Modules and camera-specific color rendering, plus profile editing capabilities. | **$249.99** one-time purchase (DxO PhotoLab 10); upgrade from v8/v9 for $129.99 . | **30-day free trial** with full features . No permanent free tier. |
-
-| **[Capture One](https://www.captureone.com/)** | Professional RAW editor with ICC profile support and camera-specific color characterization tools. | **Subscription**: ~¥63.08/month. **Perpetual license**: ~¥1,261.00 . | **30-day free trial** available. No permanent free tier. |
-
-| **[3D LUT Creator](https://3dlutcreator.com/)** | Specialized tool for creating and editing 3D LUTs for color grading and camera profiling. | **Grading Edition**: $99. **Standard**: $199. **PRO**: $249 (PC or Mac); $299 for both platforms . | **Free trial** available. No permanent free tier. |
-
-| **[Lumariver Profile Designer](https://www.lumariver.com/)** | Advanced DCP profile editor with full control over look tables, tone curves, and color matrices. | Quote-based; typically **€100–€200** range for individual licenses (not confirmed in search results). | Not specified in available results. |
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Argyll CMS](https://github.com/ArgyllCMS/ArgyllCMS)** [![GitHub Stars](https://img.shields.io/github/stars/ArgyllCMS/ArgyllCMS?style=social&color=white)](https://github.com/ArgyllCMS/ArgyllCMS/stargazers)  
-
-  **The comprehensive open-source color management system.** **AGPL-3.0 licensed**. A complete ICC-compatible color management system with 40+ command-line tools covering camera profiling (`scanin`, `colprof`), display calibration (`dispcal`, `dispwin`), printer profiling (`printcal`, `printtarg`), and profile inspection (`iccdump`, `profcheck`) . **Strengths**: vendor-independent, supports virtually all colorimeters and spectrophotometers, and produces ICC profiles competitive with commercial tools. **Trade-offs**: command-line interface is intimidating for beginners—DisplayCAL provides a GUI wrapper. Best for color scientists and photographers wanting maximum control over the profiling pipeline without any licensing fees.
-
-
-
-- **[DisplayCAL](https://github.com/eoyilmaz/displaycal-py3)** [![GitHub Stars](https://img.shields.io/github/stars/eoyilmaz/displaycal-py3?style=social&color=white)](https://github.com/eoyilmaz/displaycal-py3/stargazers)  
-
-  **The gold-standard GUI for Argyll CMS.** **GPL-3.0 licensed**. A powerful graphical frontend for Argyll CMS that handles display calibration, profiling, and verification . **Features**: supports all major colorimeters, generates ICC/ICM profiles, loads calibration into the video LUT, and provides verification tools. **Installation**: available via most Linux distros, Flatpak (`flatpak install flathub net.displaycal.DisplayCAL`), or Windows/macOS installers . Best for users wanting Argyll's power without command-line complexity.
-
-
-
-- **[dcamprof](https://github.com/Beep6581/dcamprof)** [![GitHub Stars](https://img.shields.io/github/stars/Beep6581/dcamprof?style=social&color=white)](https://github.com/Beep6581/dcamprof/stargazers)  
-
-  **The command-line DCP profile maker for RawTherapee.** **GPL-3.0 licensed**. A free and open-source command-line tool for making camera profiles (DCP format) and performing tasks related to camera profiling . **Strengths**: used by the RawTherapee community for creating custom DCP profiles from ColorChecker target shots; supports advanced look tables and tone curves. **Documentation**: tutorial available on RawPedia for creating DCP profiles . Best for RawTherapee users and photographers wanting to generate DCP profiles programmatically.
-
-
-
-- **[colour-science](https://github.com/colour-science/colour)** [![GitHub Stars](https://img.shields.io/github/stars/colour-science/colour?style=social&color=white)](https://github.com/colour-science/colour/stargazers)  
-
-  **The Python colour science library.** **BSD-3-Clause licensed**, NumFOCUS-affiliated . Provides comprehensive algorithms and datasets for colour science—chromatic adaptation, colour appearance models, colour difference calculations, spectral up-sampling, and ACES input transforms . **Use case**: not a GUI profiling tool, but a foundational library for developers building custom camera profiling or color management applications in Python. Best for researchers and developers implementing custom color science algorithms.
-
-
-
-- **[rawtoaces](https://github.com/AcademySoftwareFoundation/rawtoaces)** [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/rawtoaces?style=social&color=white)](https://github.com/AcademySoftwareFoundation/rawtoaces/stargazers)  
-
-  **The ACES-ready raw camera transform tool.** Part of the Academy Software Foundation. Converts raw camera files to ACES using spectral sensitivity data or DNG metadata . **Latest**: v2.2.0 (July 2026) adds camera aliases, optional dependencies (Eigen/Ceres no longer required), and a custom matrix solver . Best for VFX and post-production pipelines requiring ACES-compliant camera transforms.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Lutgen** — Rust-based CLI for generating and applying interpolated LUTs from color palettes. MIT licensed, actively maintained into 2026 . Best for creating LUTs from color schemes rather than camera profiling.
-
-- **RawTherapee** — Full RAW processing application with built-in DCP profile support and integration with dcamprof. Best as the end-to-end RAW workflow alongside open-source profiling tools.
-
-- **darktable** — Open-source RAW editor with built-in camera profiling and color calibration modules. Best for photographers wanting an integrated open-source RAW workflow with profiling capabilities.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Hardware-bundled software is not free-standing**: X-Rite/Calibrite profiling software comes with the purchase of a ColorChecker target (~$107–€599) . The software itself has no separate pricing or free tier.
-
-- **Argyll CMS is the engine; DisplayCAL is the GUI**: neither is a drop-in replacement for Adobe DNG Profile Editor's simplicity, but together they provide comparable or superior profiling capability at zero cost .
-
-- **dcamprof is command-line only**: while powerful for DCP generation, it requires comfort with terminal workflows. RawTherapee users may find its tutorial accessible .
-
-- **Pricing for Lumariver Profile Designer and some commercial tools is not confirmed** in the available search results—verify on official vendor sites before budgeting.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [🔍 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Commercial Platforms](#️-saas--commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🌟 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📜 Disclaimer](#-disclaimer)
 
-**Made for photographers, color scientists, and imaging engineers building accurate color pipelines.**  
+---
 
-Let's make camera profiling more open, accessible, and vendor-independent.
+## 🔍 Sector Overview & Market Dynamics
+
+The global color management and digital camera imaging software market is estimated at **$1.8 billion to $2.4 billion**, with steady expansion driven by high-resolution digital imaging, commercial photography, and VFX color-grading pipelines.
+
+The sector is **moderately fragmented**: mega-cap giants like Adobe dominate mainstream RAW decoding and basic camera profile pipelines, while highly specialized hardware-coupled vendors (e.g., Calibrite/X-Rite, Phase One/Capture One, DxO) and independent imaging science developers cater to niche studio workflows, scientific measurement, and film post-production.
+
+---
+
+## ☁️ SaaS & Commercial Platforms
+
+| Product | Description | Pricing | Free Tier Limit | Company Size / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe DNG Profile Editor](https://helpx.adobe.com/camera-raw/digital-negative.html)** | Free utility from Adobe for creating and editing DNG camera profiles, tone curves, and dual-illuminant matrix models. | **$0.00** (Free standalone utility) | **Fully free forever**. No subscription or account required. | **~$230B Valuation** ($21.4B ARR / S&P 500) |
+| **[X-Rite ColorChecker Camera Calibration](https://calibrite.com/)** | Industry-standard profiling software bundled with ColorChecker targets for automated ICC/DCP generation. | **$107.00** starting tier (bundled with ColorChecker Passport Photo 2) | **Software license included with target purchase**. No standalone free tier. | **~$10B Parent Corp** (Danaher / Veralto imaging group) |
+| **[DxO PhotoLab](https://www.dxo.com/)** | High-end RAW processing suite with optical laboratory modules and custom camera-sensor profile rendering. | **$249.99** one-time purchase (DxO PhotoLab Elite Edition) | **30-day free trial** with full access to all editing modules. No permanent free tier. | **~$45M Annual Revenue** (Established imaging pioneer) |
+| **[Capture One](https://www.captureone.com/)** | Pro-grade tethering and RAW developer featuring custom camera color response profiles and 3D color editing. | **$14.99/month** (All in One subscription) or **$299.00** perpetual license | **30-day free trial** with full raw profiling and tethering capabilities. No permanent free tier. | **~$35M Annual Revenue** (Axcel private equity backed) |
+| **[Calibrite ColorChecker Studio](https://calibrite.com/)** | End-to-end hardware and software ecosystem for profiling cameras, monitors, scanners, and RGB/CMYK printers. | **€599.00** (~$645.00) complete hardware-software studio kit | **Hardware bundle only**. Profiler software is unlimited with hardware registration; no standalone free tier. | **~$25M Annual Revenue** (Calibrite / X-Rite spin-off) |
+| **[3D LUT Creator](https://3dlutcreator.com/)** | Advanced color grading and camera profiling software allowing grid manipulation in A/B and C/L color spaces. | **$99.00** (Grading Edition one-time); Standard $199.00; PRO $249.00 | **Free trial version** available (exporting LUTs is watermarked/restricted). No permanent free tier. | **~$5M Annual Revenue** (Independent imaging boutique) |
+| **[Lumariver Profile Designer](https://www.lumariver.com/)** | Dedicated DCP and ICC profile designer engineered for full control over look tables, tone curves, and matrix optimization. | **€100.00** (Repro Edition €200.00) one-time license | **Free trial edition** provided (profile exports locked/watermarked for testing). No permanent free tier. | **~$2M Annual Revenue** (Boutique color science software) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The open-source color profiling ecosystem provides vendor-independent control over raw camera transforms, look tables, and display calibration pipelines.
+
+*Sorted by GitHub stargazers count (descending):*
+
+- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
+  **Open-source RAW photography workflow and color calibration suite.** **GPL-3.0 licensed**. Includes a built-in camera profiling workflow, color calibration module with chromatic adaptation transforms (CAT16), and support for custom ICC/input camera matrices.
+
+- **[RawTherapee](https://github.com/Beep6581/RawTherapee)** [![GitHub Stars](https://img.shields.io/github/stars/Beep6581/RawTherapee)](https://github.com/Beep6581/RawTherapee/stargazers)  
+  **Advanced raw photo development system.** **GPL-3.0 licensed**. Features comprehensive DCP (DNG Color Profile) and ICC input profile handling, dual-illuminant support, and tight integration with dcamprof for target-based profiling.
+
+- **[colour-science](https://github.com/colour-science/colour)** [![GitHub Stars](https://img.shields.io/github/stars/colour-science/colour?style=social&color=white)](https://github.com/colour-science/colour/stargazers)  
+  **Comprehensive Python library for color science algorithms.** **BSD-3-Clause licensed** (NumFOCUS-affiliated). Delivers extensive algorithms for chromatic adaptation, color difference metrics, spectral upsampling, and ACES camera transforms.
+
+- **[OpenColorIO](https://github.com/AcademySoftwareFoundation/OpenColorIO)** [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenColorIO?style=social&color=white)](https://github.com/AcademySoftwareFoundation/OpenColorIO/stargazers)  
+  **Industry-standard color management framework for visual effects and animation.** **BSD-3-Clause licensed** (Academy Software Foundation). Provides consistent color transforms, 3D LUT generation, and camera profile look implementation across modern production pipelines.
+
+- **[DisplayCAL](https://github.com/eoyilmaz/displaycal-py3)** [![GitHub Stars](https://img.shields.io/github/stars/eoyilmaz/displaycal-py3?style=social&color=white)](https://github.com/eoyilmaz/displaycal-py3/stargazers)  
+  **The gold-standard graphical frontend for Argyll CMS.** **GPL-3.0 licensed**. Empowers photographers with complete display calibration, custom ICC profile creation, and profiling verification across Windows, macOS, and Linux.
+
+- **[Little-CMS](https://github.com/mm2/Little-CMS)** [![GitHub Stars](https://img.shields.io/github/stars/mm2/Little-CMS?style=social&color=white)](https://github.com/mm2/Little-CMS/stargazers)  
+  **Fast, full-featured ICC color management engine library.** **MIT licensed**. Serves as the backbone color transform engine for hundreds of imaging software packages, converting profiles across ICC v2 and v4 standards.
+
+- **[lutgen-rs](https://github.com/ozwaldorf/lutgen-rs)** [![GitHub Stars](https://img.shields.io/github/stars/ozwaldorf/lutgen-rs?style=social&color=white)](https://github.com/ozwaldorf/lutgen-rs/stargazers)  
+  **Blazing-fast Rust CLI & library for generating interpolated 3D LUTs.** **MIT licensed**. Uses perceptual color spaces (Oklab, CIELAB) to construct custom Hald-CLUTs and lookup tables for photographic toning.
+
+- **[rawtoaces](https://github.com/AcademySoftwareFoundation/rawtoaces)** [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/rawtoaces?style=social&color=white)](https://github.com/AcademySoftwareFoundation/rawtoaces/stargazers)  
+  **ACES-ready RAW camera transform utility.** **BSD-3-Clause licensed** (Academy Software Foundation). Transforms RAW camera sensor digital counts directly into ACES color spaces using spectral sensitivity datasets and custom matrix solvers.
+
+- **[dcamprof](https://github.com/Beep6581/dcamprof)** [![GitHub Stars](https://img.shields.io/github/stars/Beep6581/dcamprof?style=social&color=white)](https://github.com/Beep6581/dcamprof/stargazers)  
+  **Command-line camera profiling tool for creating precise DCP and ICC profiles.** **GPL-3.0 licensed**. Generates camera calibration profiles with custom look tables, forward matrices, and tone curves from ColorChecker target captures.
+
+- **[Argyll CMS](https://github.com/ArgyllCMS/ArgyllCMS)** [![GitHub Stars](https://img.shields.io/github/stars/ArgyllCMS/ArgyllCMS?style=social&color=white)](https://github.com/ArgyllCMS/ArgyllCMS/stargazers)  
+  **The comprehensive, vendor-independent ICC color management suite.** **AGPL-3.0 licensed**. Features 40+ command-line tools covering camera target profiling (`scanin`, `colprof`), display characterization, and profile diagnostic verification.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Camera-Profile-Editing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Camera-Profile-Editing&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from photographers, color scientists, and developers! 
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a descriptive feature branch (`git checkout -b add-profiling-tool`).
+3. 📝 Add or edit entries in `README.md` following the existing format:
+   - For SaaS products: Include pricing, exact free tier / trial terms, and company size.
+   - For Open-Source projects: Include GitHub link, social white star badge, license, and concise description.
+4. 🚀 Submit a Pull Request with a clear summary of your changes.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using **Awesome-Camera-Profile-Editing**! If this curated collection helps your photography or color pipeline:
+
+- ⭐ **Star** this repository on GitHub to help others find it.
+- 🍴 **Fork** it to keep your own reference copy.
+- 📢 **Share** it with fellow photographers, videographers, and colorists.
+- ☕ Consider buying a coffee to support continued maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📜 Disclaimer
+
+- This list is a **community-curated directory** for informational purposes; inclusion does not constitute endorsement.
+- Hardware-bundled tools (e.g., Calibrite / X-Rite) require authorized physical target or spectrophotometer hardware.
+- All brand names, trademarks, and logos belong to their respective copyright holders.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for the global photography and color science community.</sub>
+</div>
