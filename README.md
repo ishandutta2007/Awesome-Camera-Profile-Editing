@@ -64,34 +64,34 @@ The open-source color profiling ecosystem provides vendor-independent control ov
 
 *Sorted by GitHub stargazers count (descending):*
 
-- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
+- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub_Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
   **Open-source RAW photography workflow and color calibration suite.** **GPL-3.0 licensed**. Includes a built-in camera profiling workflow, color calibration module with chromatic adaptation transforms (CAT16), and support for custom ICC/input camera matrices.
 
-- **[RawTherapee](https://github.com/Beep6581/RawTherapee)** [![GitHub Stars](https://img.shields.io/github/stars/Beep6581/RawTherapee)](https://github.com/Beep6581/RawTherapee/stargazers)  
+- **[RawTherapee](https://github.com/Beep6581/RawTherapee)** [![GitHub_Stars](https://img.shields.io/github/stars/Beep6581/RawTherapee)](https://github.com/Beep6581/RawTherapee/stargazers)  
   **Advanced raw photo development system.** **GPL-3.0 licensed**. Features comprehensive DCP (DNG Color Profile) and ICC input profile handling, dual-illuminant support, and tight integration with dcamprof for target-based profiling.
 
-- **[colour-science](https://github.com/colour-science/colour)** [![GitHub Stars](https://img.shields.io/github/stars/colour-science/colour?style=social&color=white)](https://github.com/colour-science/colour/stargazers)  
+- **[colour-science](https://github.com/colour-science/colour)** [![GitHub_Stars](https://img.shields.io/github/stars/colour-science/colour?style=social&color=white)](https://github.com/colour-science/colour/stargazers)  
   **Comprehensive Python library for color science algorithms.** **BSD-3-Clause licensed** (NumFOCUS-affiliated). Delivers extensive algorithms for chromatic adaptation, color difference metrics, spectral upsampling, and ACES camera transforms.
 
-- **[OpenColorIO](https://github.com/AcademySoftwareFoundation/OpenColorIO)** [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenColorIO?style=social&color=white)](https://github.com/AcademySoftwareFoundation/OpenColorIO/stargazers)  
+- **[OpenColorIO](https://github.com/AcademySoftwareFoundation/OpenColorIO)** [![GitHub_Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenColorIO?style=social&color=white)](https://github.com/AcademySoftwareFoundation/OpenColorIO/stargazers)  
   **Industry-standard color management framework for visual effects and animation.** **BSD-3-Clause licensed** (Academy Software Foundation). Provides consistent color transforms, 3D LUT generation, and camera profile look implementation across modern production pipelines.
 
-- **[DisplayCAL](https://github.com/eoyilmaz/displaycal-py3)** [![GitHub Stars](https://img.shields.io/github/stars/eoyilmaz/displaycal-py3?style=social&color=white)](https://github.com/eoyilmaz/displaycal-py3/stargazers)  
+- **[DisplayCAL](https://github.com/eoyilmaz/displaycal-py3)** [![GitHub_Stars](https://img.shields.io/github/stars/eoyilmaz/displaycal-py3?style=social&color=white)](https://github.com/eoyilmaz/displaycal-py3/stargazers)  
   **The gold-standard graphical frontend for Argyll CMS.** **GPL-3.0 licensed**. Empowers photographers with complete display calibration, custom ICC profile creation, and profiling verification across Windows, macOS, and Linux.
 
-- **[Little-CMS](https://github.com/mm2/Little-CMS)** [![GitHub Stars](https://img.shields.io/github/stars/mm2/Little-CMS?style=social&color=white)](https://github.com/mm2/Little-CMS/stargazers)  
+- **[Little-CMS](https://github.com/mm2/Little-CMS)** [![GitHub_Stars](https://img.shields.io/github/stars/mm2/Little-CMS?style=social&color=white)](https://github.com/mm2/Little-CMS/stargazers)  
   **Fast, full-featured ICC color management engine library.** **MIT licensed**. Serves as the backbone color transform engine for hundreds of imaging software packages, converting profiles across ICC v2 and v4 standards.
 
-- **[lutgen-rs](https://github.com/ozwaldorf/lutgen-rs)** [![GitHub Stars](https://img.shields.io/github/stars/ozwaldorf/lutgen-rs?style=social&color=white)](https://github.com/ozwaldorf/lutgen-rs/stargazers)  
+- **[lutgen-rs](https://github.com/ozwaldorf/lutgen-rs)** [![GitHub_Stars](https://img.shields.io/github/stars/ozwaldorf/lutgen-rs?style=social&color=white)](https://github.com/ozwaldorf/lutgen-rs/stargazers)  
   **Blazing-fast Rust CLI & library for generating interpolated 3D LUTs.** **MIT licensed**. Uses perceptual color spaces (Oklab, CIELAB) to construct custom Hald-CLUTs and lookup tables for photographic toning.
 
-- **[rawtoaces](https://github.com/AcademySoftwareFoundation/rawtoaces)** [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/rawtoaces?style=social&color=white)](https://github.com/AcademySoftwareFoundation/rawtoaces/stargazers)  
+- **[rawtoaces](https://github.com/AcademySoftwareFoundation/rawtoaces)** [![GitHub_Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/rawtoaces?style=social&color=white)](https://github.com/AcademySoftwareFoundation/rawtoaces/stargazers)  
   **ACES-ready RAW camera transform utility.** **BSD-3-Clause licensed** (Academy Software Foundation). Transforms RAW camera sensor digital counts directly into ACES color spaces using spectral sensitivity datasets and custom matrix solvers.
 
-- **[dcamprof](https://github.com/Beep6581/dcamprof)** [![GitHub Stars](https://img.shields.io/github/stars/Beep6581/dcamprof?style=social&color=white)](https://github.com/Beep6581/dcamprof/stargazers)  
+- **[dcamprof](https://github.com/Beep6581/dcamprof)** [![GitHub_Stars](https://img.shields.io/github/stars/Beep6581/dcamprof?style=social&color=white)](https://github.com/Beep6581/dcamprof/stargazers)  
   **Command-line camera profiling tool for creating precise DCP and ICC profiles.** **GPL-3.0 licensed**. Generates camera calibration profiles with custom look tables, forward matrices, and tone curves from ColorChecker target captures.
 
-- **[Argyll CMS](https://github.com/ArgyllCMS/ArgyllCMS)** [![GitHub Stars](https://img.shields.io/github/stars/ArgyllCMS/ArgyllCMS?style=social&color=white)](https://github.com/ArgyllCMS/ArgyllCMS/stargazers)  
+- **[Argyll CMS](https://github.com/ArgyllCMS/ArgyllCMS)** [![GitHub_Stars](https://img.shields.io/github/stars/ArgyllCMS/ArgyllCMS?style=social&color=white)](https://github.com/ArgyllCMS/ArgyllCMS/stargazers)  
   **The comprehensive, vendor-independent ICC color management suite.** **AGPL-3.0 licensed**. Features 40+ command-line tools covering camera target profiling (`scanin`, `colprof`), display characterization, and profile diagnostic verification.
 
 ---
@@ -110,7 +110,7 @@ We welcome contributions from photographers, color scientists, and developers!
 2. 🌿 Create a descriptive feature branch (`git checkout -b add-profiling-tool`).
 3. 📝 Add or edit entries in `README.md` following the existing format:
    - For SaaS products: Include pricing, exact free tier / trial terms, and company size.
-   - For Open-Source projects: Include GitHub link, social white star badge, license, and concise description.
+   - For Open-Source projects: Include GitHub link, social white Stars_Badge, license, and concise description.
 4. 🚀 Submit a Pull Request with a clear summary of your changes.
 
 ---
